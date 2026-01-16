@@ -37,6 +37,23 @@ This project reflects real-world Laravel practices and provides a solid foundati
 
 ---
 
+## 🧩 Architecture & UI Approach
+
+This starter kit is intentionally designed to be **architecture-agnostic** and flexible.
+
+- Some admin pages are implemented using **Laravel Livewire with data tables**
+- Other admin pages use **traditional Blade views and controllers**
+
+This mixed approach allows developers to:
+- Choose the most suitable pattern per feature
+- Keep simple pages lightweight
+- Use Livewire where dynamic interactions are beneficial
+- Adapt the codebase to their preferred architectural style
+
+The goal is to provide a **practical reference implementation**, not to enforce a single pattern.
+
+---
+
 ## 🧱 Requirements
 - PHP 8.1+
 - Composer
