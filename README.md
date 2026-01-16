@@ -74,3 +74,31 @@ npm run dev
 Once the setup is complete, re-enable the previously commented code inside the AppServiceProvider boot() method.
 ```
 
+## 🔐 Authentication & Seeded Data
+
+This boilerplate includes seeded users and roles for development only.
+
+---
+
+## ⚠️ Security Note:
+
+Remove or update seeded users and credentials before deploying to production.
+
+---
+
+## 🔐 Development Credentials (Local Only)
+
+The database seeder creates sample users for **local development and testing**.
+
+> ⚠️ These credentials are for development purposes only.  
+> **Do not use them in production.**
+
+### Admin User
+- **Email:** admin@admin.com
+- **Password:** admin
+
+### Test User
+- **Email:** johnconnor2996@gmail.com
+- **Password:** password
+
+---
