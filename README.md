@@ -1,3 +1,5 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 # Laravel CMS Starter Kit 🚀
 
 A production-ready **Laravel CMS Starter Kit** designed to help you quickly build scalable, secure, and maintainable content-driven applications.
