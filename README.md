@@ -7,12 +7,33 @@ This project reflects real-world Laravel practices and provides a solid foundati
 ---
 
 ## ✨ Features
-- Laravel latest stable version
-- Admin panel & user authentication
-- CMS-ready architecture
-- Database seeding for fast setup
-- Modern frontend tooling (Webpack / NPM)
-- Clean and extensible codebase
+- **Laravel latest stable version**
+- **Bootstrap-based UI** using **AdminLTE** (Tailwind completely removed)
+- **Admin panel** with authentication & authorization
+- **Role & user management** (admin / user roles)
+- **CMS-ready architecture**
+
+### 📝 Content Management
+- **Blog module**
+  - Posts management
+  - Categories management
+- **Static pages management**
+  - About Us
+  - Custom pages
+
+### ⚙️ Admin Configuration
+- **Admin settings panel**
+  - Site title & description
+  - Logo & favicon management
+
+### 🌐 Frontend Website
+- Public-facing pages
+- Site title & logo integration
+
+### 🛠 Developer Experience
+- **Database seeding** for fast local setup
+- **Modern frontend tooling** (Webpack / NPM)
+- **Clean, extensible, and production-friendly codebase**
 
 ---
 
