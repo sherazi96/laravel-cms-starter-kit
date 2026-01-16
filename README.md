@@ -1,52 +1,154 @@
-## CMS Boilerplate
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-## Admin Credentials
+# Laravel CMS Starter Kit 🚀
 
-<p>
-email : admin@admin.com<br>
-password : admin
-</p>
+A production-ready **Laravel CMS Starter Kit** designed to help you quickly build scalable, secure, and maintainable content-driven applications.
 
-## Test User Credentials
+This project reflects real-world Laravel practices and provides a solid foundation for CMS, SaaS, or API-based systems.
 
-<p>
-email : johnconnor2996@gmail.com<br>
-password : password
-</p>
+---
 
-## Step 1
+## ✨ Features
+- **Laravel latest stable version**
+- **Bootstrap-based UI** using **AdminLTE** (Tailwind completely removed)
+- **Admin panel** with authentication & authorization
+- **Role & user management** (admin / user roles)
+- **CMS-ready architecture**
 
-<p>Disable code inside AppServiceProvider file boot method code</p>
+### 📝 Content Management
+- **Blog module**
+  - Posts management
+  - Categories management
+- **Static pages management**
+  - About Us
+  - Custom pages
 
-## Step 2
+### ⚙️ Admin Configuration
+- **Admin settings panel**
+  - Site title & description
+  - Logo & favicon management
 
-<p>Run command: composer install</p>
+### 🌐 Frontend Website
+- Public-facing pages
+- Site title & logo integration
 
-## Step 3
+### 🛠 Developer Experience
+- **Database seeding** for fast local setup
+- **Modern frontend tooling** (Webpack / NPM)
+- **Clean, extensible, and production-friendly codebase**
 
-<p>Run command: cp .env.example .env</p>
+---
 
-## Step 4
+## 🧩 Architecture & UI Approach
 
-<p>Set db credentails in env file</p>
+This starter kit is intentionally designed to be **architecture-agnostic** and flexible.
 
-## Step 5
+- Some admin pages are implemented using **Laravel Livewire with data tables**
+- Other admin pages use **traditional Blade views and controllers**
 
-<p>Run command : php artisan key:generate</p>
+This mixed approach allows developers to:
+- Choose the most suitable pattern per feature
+- Keep simple pages lightweight
+- Use Livewire where dynamic interactions are beneficial
+- Adapt the codebase to their preferred architectural style
 
-## Step 6
+The goal is to provide a **practical reference implementation**, not to enforce a single pattern.
 
-<p>Run command : php artisan migrate:fresh --seed</p>
+---
 
-## Step 7
+## 🧱 Requirements
+- PHP 8.1+
+- Composer
+- Node.js & npm
+- MySQL
 
-<p>Run command : npm install</p>
+---
 
-## Step 8
+## ⚙️ Installation & Setup
 
-<p>Run command : npm run dev</p>
+Follow the steps below to set up the project locally.
 
-## Step 9
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/sherazi96/lara_cms.git
+cd laravel-cms-boilerplate
+```
 
-<p>Enable code inside AppServiceProvider file boot method code</p>
-# lara_cms
+### 2️⃣ Before running migrations, temporarily comment out the relevant code inside
+```text
+app/Providers/AppServiceProvider.php
+```
+
+### 3️⃣ Install backend dependencies
+```bash
+composer install
+```
+
+### 4️⃣ Configure environment
+```bash
+cp .env.example .env
+```
+
+### 5️⃣ Generate application key
+```bash
+php artisan key:generate
+```
+
+### 6️⃣ Run migrations & seeders
+```bash
+php artisan migrate:fresh --seed
+```
+
+### 7️⃣ Install frontend dependencies
+```bash
+npm install
+```
+
+### 8️⃣ Build frontend assets
+```bash
+npm run dev
+```
+
+### 9️⃣ Re-enable AppServiceProvider logic
+```text
+Once the setup is complete, re-enable the previously commented code inside the AppServiceProvider boot() method.
+```
+
+## 🔐 Authentication & Seeded Data
+
+This boilerplate includes seeded users and roles for development only.
+
+---
+
+## ⚠️ Security Note:
+
+Remove or update seeded users and credentials before deploying to production.
+
+---
+
+## 🔐 Development Credentials (Local Only)
+
+The database seeder creates sample users for **local development and testing**.
+
+> ⚠️ These credentials are for development purposes only.  
+> **Do not use them in production.**
+
+### Admin User
+- **Email:** admin@admin.com
+- **Password:** admin
+
+### Test User
+- **Email:** johnconnor2996@gmail.com
+- **Password:** password
+
+---
+
+## 🤝 Contributing
+
+This project is currently maintained by the author.
+
+---
+
+## 📄 License
+
+This project is open-sourced under the **MIT License**.
