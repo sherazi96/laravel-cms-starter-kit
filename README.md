@@ -30,9 +30,9 @@ Follow the steps below to set up the project locally.
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/laravel-cms-boilerplate.git
+git clone https://github.com/sherazi96/lara_cms.git
 cd laravel-cms-boilerplate
 
+### 1️⃣ Before running migrations, temporarily comment out the relevant code inside
 ```bash
-👉 Before running migrations, temporarily comment out the relevant code inside:
 app/Providers/AppServiceProvider.php
