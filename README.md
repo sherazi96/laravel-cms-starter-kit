@@ -140,3 +140,7 @@ The database seeder creates sample users for **local development and testing**.
 - **Password:** password
 
 ---
+
+## 📄 License
+
+This project is open-sourced under the **MIT License**.
