@@ -1,6 +1,6 @@
-# Laravel CMS Boilerplate 🚀
+# Laravel CMS Starter Kit 🚀
 
-A production-ready **Laravel CMS boilerplate** designed to help you quickly build scalable, secure, and maintainable content-driven applications.
+A production-ready **Laravel CMS Starter Kit** designed to help you quickly build scalable, secure, and maintainable content-driven applications.
 
 This project reflects real-world Laravel practices and provides a solid foundation for CMS, SaaS, or API-based systems.
 
