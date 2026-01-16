@@ -147,6 +147,8 @@ The database seeder creates sample users for **local development and testing**.
 
 This project is currently maintained by the author.
 
+---
+
 ## 📄 License
 
 This project is open-sourced under the **MIT License**.
