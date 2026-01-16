@@ -1,52 +1,34 @@
-## CMS Boilerplate
+# Laravel CMS Boilerplate 🚀
 
-## Admin Credentials
+A production-ready **Laravel CMS boilerplate** designed to help you quickly build scalable, secure, and maintainable content-driven applications.
 
-<p>
-email : admin@admin.com<br>
-password : admin
-</p>
+This project reflects real-world Laravel practices and provides a solid foundation for CMS, SaaS, or API-based systems.
 
-## Test User Credentials
+---
 
-<p>
-email : johnconnor2996@gmail.com<br>
-password : password
-</p>
+## ✨ Features
+- Laravel latest stable version
+- Admin panel & user authentication
+- CMS-ready architecture
+- Database seeding for fast setup
+- Modern frontend tooling (Webpack / NPM)
+- Clean and extensible codebase
 
-## Step 1
+---
 
-<p>Disable code inside AppServiceProvider file boot method code</p>
+## 🧱 Requirements
+- PHP 8.1+
+- Composer
+- Node.js & npm
+- MySQL
 
-## Step 2
+---
 
-<p>Run command: composer install</p>
+## ⚙️ Installation & Setup
 
-## Step 3
+Follow the steps below to set up the project locally.
 
-<p>Run command: cp .env.example .env</p>
-
-## Step 4
-
-<p>Set db credentails in env file</p>
-
-## Step 5
-
-<p>Run command : php artisan key:generate</p>
-
-## Step 6
-
-<p>Run command : php artisan migrate:fresh --seed</p>
-
-## Step 7
-
-<p>Run command : npm install</p>
-
-## Step 8
-
-<p>Run command : npm run dev</p>
-
-## Step 9
-
-<p>Enable code inside AppServiceProvider file boot method code</p>
-# lara_cms
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/yourusername/laravel-cms-boilerplate.git
+cd laravel-cms-boilerplate
