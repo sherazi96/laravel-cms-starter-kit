@@ -37,7 +37,7 @@ Route::middleware(['auth'])->group(function () {
   // User dashboard
   Route::get('/dashboard', [DashboardController::class, 'index'])
     ->name('dashboard')
-    ->middleware('checkpermission:dashboard');
+    ->middleware('checkpermission:user.dashboard.view');
 });
 
 require __DIR__ . '/auth.php';
