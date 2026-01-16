@@ -38,3 +38,39 @@ cd laravel-cms-boilerplate
 ```text
 app/Providers/AppServiceProvider.php
 ```
+
+### 3️⃣ Install backend dependencies
+```bash
+composer install
+```
+
+### 4️⃣ Configure environment
+```bash
+cp .env.example .env
+```
+
+### 5️⃣ Generate application key
+```bash
+php artisan key:generate
+```
+
+### 6️⃣ Run migrations & seeders
+```bash
+php artisan migrate:fresh --seed
+```
+
+### 7️⃣ Install frontend dependencies
+```bash
+npm install
+```
+
+### 8️⃣ Build frontend assets
+```bash
+npm run dev
+```
+
+### 9️⃣ Re-enable AppServiceProvider logic
+```text
+Once the setup is complete, re-enable the previously commented code inside the AppServiceProvider boot() method.
+```
+
